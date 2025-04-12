@@ -57,7 +57,7 @@ class AppDrawer extends StatelessWidget {
           ),
                     ListTile(
             leading: const Icon(Icons.score, color: AppColors.green),
-            title: const Text('score'),
+            title: const Text('Placar'),
             onTap: () {
               Navigator.pop(context);
               Navigator.pushNamed(context, 'score');
